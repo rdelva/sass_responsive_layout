@@ -1,0 +1,22 @@
+// Descriptive color variables
+
+$tundora		:#4A4A4A;
+$tanhide		:#f78460;
+$white			:#fff;		
+$babypurple		:#DDD1E7;   
+
+
+//Functional color varibles	
+
+$background		:$babypurple;
+$link     		:$tundora;
+$hoverLink 		:$tanhide;
+
+
+
+//Font stacks
+
+$stack-san-serif	:sans-serif;
+$stack-raleway		:'Raleway', $stack-san-serif;
+$stack-pacifico		:'Pacifico', $stack-san-serif;
+

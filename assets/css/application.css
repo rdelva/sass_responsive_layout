@@ -5,7 +5,7 @@ img {
   max-width: 100%; }
 
 a {
-  color: #4a4a4a; }
+  color: #4A4A4A; }
 
 .mainHeader, .profile, .mainFooter {
   padding: 1em; }
@@ -66,14 +66,14 @@ h4 {
 .topAnchor a:link,
 .footerName a:link {
   text-decoration: none;
-  color: #4a4a4a;
+  color: #4A4A4A;
   font-weight: bold; }
 .mainNav a:visited,
 .footerNav a:visited,
 .topAnchor a:visited,
 .footerName a:visited {
   text-decoration: none;
-  color: #4a4a4a;
+  color: #4A4A4A;
   font-weight: bold; }
 .mainNav a:hover,
 .footerNav a:hover,
@@ -105,7 +105,7 @@ h2, .mainNav, .footerNav {
   clear: both; }
 
 body {
-  color: #4a4a4a;
+  color: #4A4A4A;
   background-color: #DDD1E7;
   font-family: 'Raleway', sans-serif; }
 
