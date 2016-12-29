@@ -61,30 +61,27 @@ h4 {
 .footerNav {
   display: none; }
 
-.mainNav a a:link,
-.footerNav a a:link,
-.topAnchor a a:link,
-.footerName a a:link {
+.mainNav a:link,
+.footerNav a:link,
+.topAnchor a:link,
+.footerName a:link {
   text-decoration: none;
   color: #4a4a4a;
   font-weight: bold; }
-.mainNav a .mainNav a:hover,
-.mainNav a .footerNav a:hover,
-.mainNav a .footerName a:hover,
-.mainNav a .topAnchor a:hover,
-.footerNav a .mainNav a:hover,
-.footerNav a .footerNav a:hover,
-.footerNav a .footerName a:hover,
-.footerNav a .topAnchor a:hover,
-.topAnchor a .mainNav a:hover,
-.topAnchor a .footerNav a:hover,
-.topAnchor a .footerName a:hover,
-.topAnchor a .topAnchor a:hover,
-.footerName a .mainNav a:hover,
-.footerName a .footerNav a:hover,
-.footerName a .footerName a:hover,
-.footerName a .topAnchor a:hover {
-  color: #f78460; }
+.mainNav a:visited,
+.footerNav a:visited,
+.topAnchor a:visited,
+.footerName a:visited {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: bold; }
+.mainNav a:hover,
+.footerNav a:hover,
+.topAnchor a:hover,
+.footerName a:hover {
+  text-decoration: none;
+  color: #f78460;
+  font-weight: bold; }
 
 .name a, .gallery a {
   text-decoration: none; }

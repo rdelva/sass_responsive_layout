@@ -2,26 +2,25 @@
 .mainNav a,
 .footerNav a,
 .topAnchor a,
-.footerName a {
+.footerName a{
 	
-	a:link {
+	&:link {
 		text-decoration: none;
 		color:#4a4a4a;
 		font-weight: bold;
 	}
 
-		.mainNav a:hover,
-	.footerNav a:hover,
-	.footerName a:hover,
-	.topAnchor a:hover
-	 {
-		color:#f78460;
-		
+	&:visited {
+		text-decoration: none;
+		color:#4a4a4a;
+		font-weight: bold;
 	}
-}
-
-
-
+	&:hover {
+		text-decoration: none;
+		color:#f78460;
+		font-weight: bold;
+	}
+} 
 
 
 .name a, .gallery a {
