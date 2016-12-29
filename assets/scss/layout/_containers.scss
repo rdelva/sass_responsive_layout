@@ -1,0 +1,40 @@
+.mainHeader, .profile, .mainFooter {
+	padding: 1em;
+
+}
+
+.mainHeader, .portfolio .container{
+	@extend %topPadding;
+	@extend %clearfix;
+}
+
+.mainFooter .container {
+	padding:20px 0 20px 0;
+	@extend %clearfix;
+}
+
+
+.portfolio {
+	@extend %topPadding;
+}
+
+.portfolio .container {
+	background-color: #fff;
+}
+
+
+footer .container {
+	border-top: solid 1px #e7e7e7;
+	@extend %clearfix;
+}
+
+.wrap {
+	min-height: calc(100vh - 92px);
+
+}
+
+.container {
+	
+	margin: 0 auto;
+	padding: 1em;
+}

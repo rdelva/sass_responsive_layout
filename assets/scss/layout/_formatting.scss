@@ -1,0 +1,69 @@
+	
+
+.name,h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.mainNav,
+.gallery, 
+.skillList{
+
+	list-style: none;
+	padding: 0;
+
+}
+
+.skillList li{
+	display: inline-block;
+	margin: 10px;
+}
+
+
+
+
+.mainNav li {
+	text-align: center;
+	background: #fff;
+	margin: 6px 0;
+}
+
+
+
+.name a,
+.mainNav a {
+	display: block;
+} 
+
+
+
+.mainNav a {
+	padding: 10px 0 10px 15px;
+}
+
+
+
+
+h4 {
+	float:left;
+}
+
+.topAnchor {
+	float: right;
+}
+
+
+.mainHeader,
+.profile,
+.portfolio,
+.contact,
+.skills {
+		@extend %centered;
+
+}
+
+.footerNav {
+	display: none;
+}
+
+

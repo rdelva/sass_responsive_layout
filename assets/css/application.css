@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a {
+  color: #4a4a4a; }
+
+.mainHeader, .profile, .mainFooter {
+  padding: 1em; }
+
+.mainFooter .container {
+  padding: 20px 0 20px 0; }
+
+.portfolio .container {
+  background-color: #fff; }
+
+footer .container {
+  border-top: solid 1px #e7e7e7; }
+
+.wrap {
+  min-height: calc(100vh - 92px); }
+
+.container {
+  margin: 0 auto;
+  padding: 1em; }
+
+.name, h4 {
+  margin: 0;
+  padding: 0; }
+
+.mainNav,
+.gallery,
+.skillList {
+  list-style: none;
+  padding: 0; }
+
+.skillList li {
+  display: inline-block;
+  margin: 10px; }
+
+.mainNav li {
+  text-align: center;
+  background: #fff;
+  margin: 6px 0; }
+
+.name a,
+.mainNav a {
+  display: block; }
+
+.mainNav a {
+  padding: 10px 0 10px 15px; }
+
+h4 {
+  float: left; }
+
+.topAnchor {
+  float: right; }
+
+.footerNav {
+  display: none; }
+
+.mainNav a a:link,
+.footerNav a a:link,
+.topAnchor a a:link,
+.footerName a a:link {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: bold; }
+.mainNav a .mainNav a:hover,
+.mainNav a .footerNav a:hover,
+.mainNav a .footerName a:hover,
+.mainNav a .topAnchor a:hover,
+.footerNav a .mainNav a:hover,
+.footerNav a .footerNav a:hover,
+.footerNav a .footerName a:hover,
+.footerNav a .topAnchor a:hover,
+.topAnchor a .mainNav a:hover,
+.topAnchor a .footerNav a:hover,
+.topAnchor a .footerName a:hover,
+.topAnchor a .topAnchor a:hover,
+.footerName a .mainNav a:hover,
+.footerName a .footerNav a:hover,
+.footerName a .footerName a:hover,
+.footerName a .topAnchor a:hover {
+  color: #f78460; }
+
+.name a, .gallery a {
+  text-decoration: none; }
+
+h2, .mainNav, .footerNav {
+  text-transform: uppercase; }
+
+.mainHeader,
+.profile,
+.portfolio,
+.contact,
+.skills {
+  text-align: center; }
+
+.mainHeader, .portfolio .container, .portfolio {
+  padding-top: 10px; }
+
+.mainHeader::after, .portfolio .container::after, .mainFooter .container::after, footer .container::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+body {
+  color: #4a4a4a;
+  background-color: #DDD1E7;
+  font-family: 'Raleway', sans-serif; }
+
+.name {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 4em; }
+
+/*# sourceMappingURL=application.css.map */
