@@ -1,10 +1,10 @@
 body {
 	color:$link;
 	background-color: $background;
-	font-family: 'Raleway', sans-serif;
+	font-family: $stack-raleway;
 }
 
 .name {
-	font-family: 'Pacifico', sans-serif;
+	font-family: $stack-pacifico;
 	font-size: 4em;
 }
