@@ -5,15 +5,11 @@
 .footerName a{
 	
 	&:link {
-		text-decoration: none;
-		color:$link;
-		font-weight: bold;
+		@include link;
 	}
 
 	&:visited {
-		text-decoration: none;
-		color:$link;
-		font-weight: bold;
+		@include link;
 	}
 	&:hover {
 		text-decoration: none;

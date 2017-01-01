@@ -13,6 +13,10 @@ a {
 .mainFooter .container {
   padding: 20px 0 20px 0; }
 
+@media brk-wide {
+  .portfolio {
+    padding: 0 1em; } }
+
 .portfolio .container {
   background-color: #fff; }
 
@@ -25,6 +29,9 @@ footer .container {
 .container {
   margin: 0 auto;
   padding: 1em; }
+  @media (min-width: 1024px) {
+    .container {
+      width: 90%; } }
 
 .name, h4 {
   margin: 0;
@@ -44,6 +51,10 @@ footer .container {
   text-align: center;
   background: #fff;
   margin: 6px 0; }
+  @media (min-width: 768px) {
+    .mainNav li {
+      display: inline-block;
+      background-color: inherit; } }
 
 .name a,
 .mainNav a {
@@ -99,11 +110,56 @@ h2, .mainNav, .footerNav {
 .mainHeader, .portfolio .container, .portfolio {
   padding-top: 10px; }
 
-.mainHeader::after, .portfolio .container::after, .mainFooter .container::after, footer .container::after {
+.mainHeader::after, .portfolio .container::after, .mainFooter .container::after, .container::after {
   content: "";
   display: table;
   clear: both; }
 
+@media screen and (min-width: 768px) {
+  .name {
+    background-color: inherit; }
+
+  .gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%; }
+    .gallery li:nth-child(2n+1) {
+      clear: left; }
+
+  .profile {
+    text-align: left;
+    line-height: 25px; }
+    .profile img {
+      float: right;
+      padding-left: 1em; }
+
+  .topAnchor {
+    visibility: collapse; }
+
+  .footerNav {
+    display: inline;
+    float: right; }
+
+  .footerName, .footerNav li {
+    display: inline-block;
+    padding-left: 10px; }
+
+  .footerNav {
+    float: right;
+    margin: 0px;
+    padding: 0px; } }
+/* end of min-width:768px */
+@media screen and (min-width: 1024px) {
+  .name {
+    float: left; }
+
+  .mainNav {
+    float: right; }
+
+  .gallery li {
+    width: 28%; }
+    .gallery li:nth-child(2n+1) {
+      clear: right; } }
 body {
   color: #4A4A4A;
   background-color: #DDD1E7;

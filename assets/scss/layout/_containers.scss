@@ -16,10 +16,15 @@
 
 .portfolio {
 	@extend %topPadding;
+
+	@media #{brk-wide} {
+		padding: 0 1em;
+	}
 }
 
 .portfolio .container {
-	background-color: #fff;
+	background-color: $white;
+
 }
 
 
@@ -37,4 +42,12 @@ footer .container {
 	
 	margin: 0 auto;
 	padding: 1em;
+		@extend %clearfix;
+
+	@media #{$brk-wide} {
+
+			width: 90%;
+		
+	}
+
 }

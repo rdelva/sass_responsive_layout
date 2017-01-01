@@ -20,3 +20,8 @@ $stack-san-serif	:sans-serif;
 $stack-raleway		:'Raleway', $stack-san-serif;
 $stack-pacifico		:'Pacifico', $stack-san-serif;
 
+
+//Media query breakpoints
+
+$brk-narrow :'(min-width:768px)';
+$brk-wide	:'(min-width:1024px)';
