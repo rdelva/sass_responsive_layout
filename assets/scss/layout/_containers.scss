@@ -13,11 +13,34 @@
 	@extend %clearfix;
 }
 
+.profile {
+	
+	@include tablet {	
+		text-align: left;		
+		line-height: 25px;
+
+		& img {
+
+			float:right;
+			padding-left:1em;
+		}
+	}	
+
+	
+}
+
+.profile .container {
+
+	@include desktop {
+		text-align:left;
+	}
+	
+}
 
 .portfolio {
 	@extend %topPadding;
 
-	@media #{brk-wide} {
+	@include desktop {
 		padding: 0 1em;
 	}
 }
@@ -42,12 +65,12 @@ footer .container {
 	
 	margin: 0 auto;
 	padding: 1em;
-		@extend %clearfix;
+	@extend %clearfix;
 
-	@media #{$brk-wide} {
+	@include desktop {
+    		
+		width: 90%;
 
-			width: 90%;
-		
-	}
-
+  	}
+	
 }
